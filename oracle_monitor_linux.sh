@@ -120,7 +120,7 @@ cat << EOF > $OUTPUT_FILE
     </style>
 </head>
 <body>
-    <h1>Oracle Database Monitoring Report V10</h1>
+    <h1>Oracle Database Monitoring Report V1</h1>
     <p style="text-align: center;">Generated on: $(date)</p>
     
     <div id="toc">
