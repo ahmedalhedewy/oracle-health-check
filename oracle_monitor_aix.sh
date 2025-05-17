@@ -596,9 +596,9 @@ EOF
     echo "<h3>Data Guard Status</h3>" >> $OUTPUT_FILE
     echo "<pre>" >> $OUTPUT_FILE
     
-    dgmgrl sys/Ora2022 << EOF | while read line; do
+    dgmgrl sys/PASSWORD << EOF | while read line; do
 show configuration;
-show database "$SID";
+show database "DR_NAME";
 validate network configuration for all;
 EOF
         line=`echo "$line" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g'`
