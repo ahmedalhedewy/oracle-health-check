@@ -595,9 +595,9 @@ EOF
     echo "<h3>Data Guard Status</h3>" >> $OUTPUT_FILE
     echo "<pre>" >> $OUTPUT_FILE
     
-    dgmgrl sys/Ora2022_2022 << EOF | while IFS= read -r line; do
+    dgmgrl sys/PASSWORD << EOF | while IFS= read -r line; do
 show configuration;
-show database "Error: Could not determine database names";
+show database "DR_NAME";
 validate network configuration for all;
 EOF
 
