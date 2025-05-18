@@ -37,8 +37,8 @@ Before running the script, you need to make two modifications:
    - For Linux: Edit line 18 in `oracle_monitor_linux.sh`
 
 2. **Change the Data Guard broker password**: 
-   - For AIX: Edit line 507 in `oracle_monitor_aix.sh` to replace `sys/Ora2022`
-   - For Linux: Edit line 507 in `oracle_monitor_linux.sh` to replace `sys/Ora2022_2022`
+   - For AIX: Edit line 507 in `oracle_monitor_aix.sh` to replace `sys/PASSWORD`
+   - For Linux: Edit line 507 in `oracle_monitor_linux.sh` to replace `sys/PASSWORD`
 
 ## Usage
 
